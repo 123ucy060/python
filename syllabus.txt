@@ -1,0 +1,311 @@
+START
+ ↓
+COMPUTER & PROGRAMMING FOUNDATIONS
+ ├─ How computers work
+ │    ├─ Binary & data representation
+ │    ├─ Instruction cycle
+ │    └─ Hardware vs Software
+ ├─ CPU | RAM | Storage
+ │    ├─ CPU registers & cache
+ │    ├─ RAM vs ROM
+ │    └─ HDD vs SSD
+ ├─ Operating Systems
+ │    ├─ Process & threads
+ │    ├─ Memory management
+ │    ├─ File systems
+ │    └─ Windows vs Linux basics
+ ├─ Programming concepts
+ │    ├─ Algorithms
+ │    ├─ Flowcharts
+ │    ├─ Pseudocode
+ │    └─ Time & space complexity (intro)
+ ├─ Compiler vs Interpreter
+ │    ├─ Compilation steps
+ │    ├─ Bytecode
+ │    └─ Runtime execution
+ └─ What is Python & execution flow
+      ├─ Python philosophy
+      ├─ Python versions
+      ├─ Python interpreter
+      └─ Execution pipeline
+ ↓
+PYTHON CORE BASICS
+ ├─ Python syntax rules
+ │    ├─ Statements & expressions
+ │    └─ Line continuation
+ ├─ Indentation
+ │    ├─ Blocks
+ │    └─ Common indentation errors
+ ├─ Comments
+ │    ├─ Single-line
+ │    └─ Docstrings
+ ├─ print()
+ │    ├─ sep & end
+ │    └─ Formatting output
+ ├─ Variables
+ │    ├─ Dynamic typing
+ │    ├─ Variable reassignment
+ │    └─ Memory reference
+ └─ Naming conventions
+      ├─ snake_case
+      ├─ Constants
+      └─ PEP8 basics
+ ↓
+DATA TYPES & INPUT / OUTPUT
+ ├─ Built-in data types
+ │    ├─ int
+ │    ├─ float
+ │    ├─ complex
+ │    ├─ str
+ │    ├─ bool
+ │    └─ None
+ ├─ type()
+ ├─ input()
+ │    ├─ User input handling
+ │    └─ Input validation
+ ├─ Type casting
+ │    ├─ int()
+ │    ├─ float()
+ │    ├─ str()
+ │    └─ bool()
+ └─ f-strings
+      ├─ Formatting
+      ├─ Expressions inside strings
+      └─ Debug-friendly output
+ ↓
+OPERATORS
+ ├─ Arithmetic
+ │    ├─ + - * / // % **
+ ├─ Assignment
+ │    ├─ += -= *= /=
+ ├─ Comparison
+ │    ├─ == != > < >= <=
+ └─ Logical
+      ├─ and
+      ├─ or
+      └─ not
+ ↓
+CONDITIONAL STATEMENTS
+ ├─ if
+ ├─ if-else
+ ├─ elif
+ ├─ Nested conditions
+ ├─ Short-hand if
+ └─ Real-world decision logic
+ ↓
+LOOPS & ITERATION
+ ├─ for loop
+ │    ├─ Iterables
+ │    └─ Loop patterns
+ ├─ while loop
+ │    ├─ Infinite loops
+ │    └─ Loop control
+ ├─ range()
+ ├─ break
+ ├─ continue
+ └─ pass
+ ↓
+LOGIC BUILDING
+ ├─ Number problems
+ │    ├─ Prime
+ │    ├─ Palindrome
+ │    └─ Armstrong
+ ├─ String logic
+ │    ├─ Reversal
+ │    ├─ Frequency count
+ │    └─ Anagrams
+ ├─ Pattern problems
+ │    ├─ Star patterns
+ │    └─ Number patterns
+ └─ Algorithm thinking
+      ├─ Step-by-step logic
+      ├─ Optimization thinking
+      └─ Edge cases
+ ↓
+DATA STRUCTURES
+ ├─ Lists
+ │    ├─ Indexing & slicing
+ │    ├─ Methods (append, pop, remove)
+ │    ├─ Copying lists
+ │    └─ List comprehension
+ ├─ Tuples
+ │    ├─ Immutability
+ │    └─ Tuple unpacking
+ ├─ Sets
+ │    ├─ Union
+ │    ├─ Intersection
+ │    └─ Difference
+ └─ Dictionaries
+      ├─ Key-value pairs
+      ├─ Methods
+      └─ Nested dictionaries
+ ↓
+DATA STRUCTURE ADVANCED
+ ├─ Nested structures
+ ├─ Sorting
+ │    ├─ sorted()
+ │    └─ sort()
+ ├─ Searching
+ │    ├─ Linear search
+ │    └─ Binary search (concept)
+ ├─ Copy vs Reference
+ └─ Mutable vs Immutable
+ ↓
+FUNCTIONS
+ ├─ def keyword
+ ├─ Parameters & arguments
+ │    ├─ Positional
+ │    ├─ Keyword
+ ├─ Return values
+ ├─ Default arguments
+ ├─ *args
+ └─ **kwargs
+ ↓
+FUNCTION ADVANCED
+ ├─ Scope
+ │    ├─ Local
+ │    ├─ Global
+ │    └─ Nonlocal
+ ├─ Lambda functions
+ ├─ map()
+ ├─ filter()
+ └─ reduce()
+ ↓
+MODULES & PACKAGES
+ ├─ import statements
+ │    ├─ import
+ │    ├─ from-import
+ │    └─ aliasing
+ ├─ Built-in modules
+ ├─ Custom modules
+ ├─ Virtual environments
+ └─ pip package manager
+ ↓
+OBJECT ORIENTED PROGRAMMING (CORE)
+ ├─ Class & Object
+ ├─ __init__ constructor
+ ├─ Instance variables
+ ├─ Methods
+ └─ Class variables
+ ↓
+OOP PILLARS
+ ├─ Encapsulation
+ │    ├─ Access modifiers
+ ├─ Inheritance
+ │    ├─ Single
+ │    ├─ Multilevel
+ ├─ Polymorphism
+ │    ├─ Method overloading
+ │    └─ Method overriding
+ └─ Abstraction
+      ├─ ABC module
+ ↓
+ADVANCED OOP
+ ├─ Magic methods
+ │    ├─ __str__
+ │    ├─ __repr__
+ ├─ Method overriding
+ ├─ Multiple inheritance
+ └─ Composition
+ ↓
+FILE HANDLING
+ ├─ File modes
+ │    ├─ r w a x
+ ├─ Read / Write files
+ ├─ Context manager (with)
+ ├─ .txt files
+ ├─ .csv files
+ └─ .json files
+ ↓
+EXCEPTION HANDLING
+ ├─ Errors vs Exceptions
+ ├─ try-except
+ ├─ else
+ ├─ finally
+ └─ Custom exceptions
+ ↓
+DEBUGGING & LOGGING
+ ├─ Debugging concepts
+ │    ├─ Tracebacks
+ │    └─ Step debugging
+ ├─ Logging module
+ │    ├─ Levels
+ │    ├─ Log files
+ └─ Error-safe code
+ ↓
+PYTHON STANDARD LIBRARY
+ ├─ os
+ ├─ sys
+ ├─ datetime
+ ├─ math
+ ├─ random
+ ├─ re (Regex)
+ ├─ collections
+ └─ itertools
+ ↓
+NETWORKING & INTERNET
+ ├─ HTTP basics
+ │    ├─ GET / POST
+ │    ├─ Status codes
+ ├─ REST APIs
+ │    ├─ Endpoints
+ │    ├─ Headers
+ │    └─ Authentication
+ ├─ requests library
+ ├─ JSON handling
+ └─ Web scraping
+      ├─ BeautifulSoup
+      ├─ Ethical scraping
+ ↓
+DATABASES
+ ├─ SQL basics
+ │    ├─ SELECT INSERT UPDATE DELETE
+ ├─ SQLite
+ ├─ MySQL / PostgreSQL
+ ├─ ORM (SQLAlchemy)
+ └─ Database optimization
+ ↓
+ADVANCED PYTHON
+ ├─ Memory management
+ ├─ Garbage collection
+ ├─ Multithreading
+ ├─ Multiprocessing
+ ├─ Async programming
+ │    ├─ async / await
+ └─ GIL concept
+ ↓
+CYBERSECURITY APPLICATION LAYER
+ ├─ Log analysis scripts
+ │    ├─ Parsing logs
+ │    ├─ Regex-based detection
+ ├─ SOC automation
+ │    ├─ Alert automation
+ │    ├─ Ticket creation
+ ├─ Network scanning
+ │    ├─ Port scanning
+ │    ├─ Banner grabbing
+ ├─ Threat intelligence APIs
+ │    ├─ VirusTotal
+ │    ├─ AbuseIPDB
+ ├─ Incident response automation
+ │    ├─ IOC extraction
+ │    ├─ Auto containment
+ └─ Security tool scripting
+      ├─ Nmap automation
+      ├─ SIEM integration
+ ↓
+PROJECTS & JOB PREPARATION
+ ├─ Real-world projects
+ │    ├─ Log analyzer
+ │    ├─ Vulnerability scanner
+ ├─ Git & GitHub
+ │    ├─ Version control
+ │    ├─ Portfolio
+ ├─ Resume-ready work
+ ├─ Interview preparation
+ │    ├─ Python questions
+ │    ├─ SOC scenarios
+ └─ System thinking
+ ↓
+JOB-READY PYTHON + CYBERSECURITY DEVELOPER
+END
