@@ -1,3 +1,30 @@
+
+""" TASK 1: LOGIN STATUS COUNTER
+logs = [
+    "SUCCESS",
+    "FAILED",
+    "FAILED",
+    "SUCCESS",
+    "FAILED",
+    "SUCCESS",
+    "FAILED"
+]
+
+👉 Tasks:
+
+1)Count how many times SUCCESS
+2)Count how many times FAILED
+3)Print which one is higher
+
+Expected Output:
+SUCCESS count: 3
+FAILED count: 4
+More FAILED attempts
+"""
+
+
+
+
 logs = [
     "SUCCESS",
     "FAILED",
