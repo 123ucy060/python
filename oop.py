@@ -10,16 +10,11 @@ print(phone.brand)    #accessing object
 
 #__init__ constructor
 
+ 
 class Mobile:
-    def __init__(self, brand, price):
-        self.brand = brand
-        self.price = price
-
-phone1 = Mobile("Samsung", 15000)
-phone2 = Mobile("Apple", 70000)
-
-print(phone1.brand )
-print(phone2.brand, phone2.price)
+    def __init__(self): 
+     print("Constructor called")    
+p=Mobile()                           # (called automatically when object is created)
 
 
 
@@ -37,3 +32,13 @@ s.show()                            # method call
     
 
  
+
+
+ #self keyword
+class  example:
+     a=10
+     def add(self,a):
+         print(a)
+         print(self.a )
+obj=example()
+obj.add(20)            #20 10

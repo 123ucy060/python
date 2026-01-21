@@ -1,53 +1,47 @@
+"""🔥 TASK 1 – Smart Login System (Nested + Logical)
+🧠 Scenario
 
-""" TASK 1: LOGIN STATUS COUNTER
-logs = [
-    "SUCCESS",
-    "FAILED",
-    "FAILED",
-    "SUCCESS",
-    "FAILED",
-    "SUCCESS",
-    "FAILED"
-]
+A system checks username, password, OTP, and account status.
 
-👉 Tasks:
+📥 Input
+username = "admin"
+password = "Admin@123"
+otp = 4321
+account_active = True
 
-1)Count how many times SUCCESS
-2)Count how many times FAILED
-3)Print which one is higher
+📌 Conditions
 
-Expected Output:
-SUCCESS count: 3
-FAILED count: 4
-More FAILED attempts
+1️⃣ If username and password are correct
+2️⃣ If account is active
+3️⃣ If OTP is correct
+4️⃣ Else show proper error message
+
+✅ Expected Output
+Login successful
 """
 
+ 
 
+username = input("Enter username: ")
+account_active = True
 
+if username != "admin":
+    print("Username incorrect")
 
-logs = [
-    "SUCCESS",
-    "FAILED",
-    "FAILED",
-    "SUCCESS",
-    "FAILED",
-    "SUCCESS",
-    "FAILED"
-]
-
-success_count=0
-failed_count=0
-
-for status in logs:
-    if status=="SUCCESS":
-        success_count=success_count+1
-    else:
-        failed_count=failed_count+1
-
-print('success count :',success_count)
-print('failed count :',failed_count)
-
-if success_count>failed_count:
-    print('success count is higher')
 else:
-      print('failes count is higher')
+    password = input("Enter password: ")
+
+    if password != "1234":
+        print("Password incorrect")
+
+    else:
+        otp = int(input("Enter OTP: "))
+
+        if otp != 4545:
+            print("OTP incorrect")
+
+        elif not account_active:
+            print("Account inactive")
+
+        else:
+            print("Login successful")
