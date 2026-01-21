@@ -1,4 +1,4 @@
- 
+#hi new update 
 #encapsulation (safe )           access only inside the class
 """
 class BankAccount:
